@@ -1,0 +1,46 @@
+#logout{
+    color: white;
+}
+
+#home{
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    color: rgb(7, 6, 6);
+    text-decoration: none;
+    width: 100%;
+    
+  font-family: 'Chivo', sans-serif;
+    display: flex;
+}
+
+.sign-out{
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: .5rem 3rem;
+    background: #1ca0f2;
+    color: white;
+    margin-bottom: 2rem;
+    margin-left: 20%;
+}
+
+.first{
+    width: 22%;
+    height: 100vh;
+    position: fixed;
+}
+
+.middle{
+    width: 50%;
+    margin-left: 22%;
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    border-left: 1px solid rgba(0, 0, 0, .3);
+    min-height: 100vh;
+}
+
+.last{
+    width: 28%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+}

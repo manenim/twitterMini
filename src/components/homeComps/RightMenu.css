@@ -1,0 +1,55 @@
+.search{
+    width: 80%;
+    margin: 1rem auto;
+    border-radius:  100px;
+    padding: 0.3em 0 .3rem .3rem;
+    opacity: .7;
+    background: rgb(241, 239, 239);
+    
+}
+
+.search > img {
+    width: 1rem;
+    margin: 0 .3rem;
+    opacity: .7;
+}
+
+
+.sorry-text{
+    margin-top: 3rem;
+    opacity: .6;
+    font-size: 0.98rem;
+    text-align: center;
+
+}
+
+.search-input{
+    height: 1.3rem;
+    width: 90%;
+    border: none;
+    outline: none;
+    padding: 0 .8rem;
+    background: rgb(241, 239, 239);
+}
+
+.search-input:focus{
+    border: none;
+    outline: none;
+
+}
+
+.trend-image{
+    width: 90%;
+    margin: 0 5%;
+    opacity: .6;
+}
+
+.trends-text{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    padding-bottom: .6rem;
+    padding-left: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}

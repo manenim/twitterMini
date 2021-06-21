@@ -1,0 +1,83 @@
+.body-form{
+    display: flex;
+    margin-left: 1rem;
+  
+}
+
+.post-input{
+    border: none;
+    outline: none;
+    resize: none;
+    width: 34rem;
+    padding: 1rem 0 0 .6rem;
+    margin: 0rem 0 .5rem 1rem;
+    font-size: 1.2rem;
+}
+
+
+
+.tweet{
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: .3rem 1.8rem;
+    background: #1ca0f2;
+    color: white;
+}
+.post-form{
+    position: relative;
+    height: 25vh;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+
+}
+
+.post-footer{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-bottom: .5rem;
+}
+
+.post-footer > label{
+    display: inline-block;
+     position: relative;
+    width: 2.3rem;
+    height: 1.9rem;
+    margin-right: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+
+.img-icn{
+    /* color: #1ca0f2; */
+    background: none;
+    border: none;
+    outline: none;
+    width: 2.9rem;
+    height: 1.9rem;
+    cursor: pointer;
+    z-index: -2;
+
+}
+
+#profile-pic1 img{
+    background: rgb(66, 66, 66);
+    border: none;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+#input-file{
+    position: absolute;
+    width: 2.3rem;
+    height: 1.9rem;
+    opacity: 0;
+}
+

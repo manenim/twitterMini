@@ -1,0 +1,68 @@
+
+.postContainer{
+    background: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    position: relative;
+    display: flex;
+    align-items:flex-start;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    color: rgb(7, 6, 6);
+    text-decoration: none;
+    transform: all 1s ease;
+}
+.postContainer:hover{
+    background: rgb(243, 243, 243);
+}
+
+.author{
+    padding-top: .5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.post-text{
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.post-profile > img{
+    background: rgb(66, 66, 66);
+    border: none;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50px;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+}
+
+.post-img img{
+    width: 95%;
+    height:18rem;
+    border-radius: 25px;
+    background: rgb(34, 34, 34);
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1rem;
+    overflow:  hidden;
+}
+
+
+.post-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -.3rem;
+    width: 90%;
+}
+
+.comment > img {
+    width: 1rem;
+    margin-right: .6rem;
+    cursor: pointer;
+}
+.comment{
+    display: flex;
+    color: rgba(75, 75, 75, 0.568);
+}

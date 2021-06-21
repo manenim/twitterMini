@@ -1,0 +1,55 @@
+
+.form-container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.bod-form{
+    min-width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.head-text{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    margin-top: 0rem;
+    text-align: center;
+}
+
+.small-text{
+    text-align: center;
+}
+
+
+.head-text2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.text{
+    text-align: center;
+    text-transform: capitalize;
+    color: #1ca0f2;
+    margin-top: 20%;
+}
+
+.initials{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: grey;
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
+.welcome{
+    font-size: 2rem;
+}
